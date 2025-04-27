@@ -3,7 +3,7 @@
 
     // --- CONFIGURATION ---
     $recipient_email = "your_email@example.com"; // <<<=== PUT YOUR EMAIL ADDRESS HERE
-    $subject_prefix = "[Wow Makers Contact Form]";
+    $subject_prefix = "[Dev Makers Contact Form]";
     // --- END CONFIGURATION ---
 
     $error_message = '';
@@ -75,7 +75,7 @@
 
             // --- Attempt to send email ---
             // IMPORTANT: The mail() function might not work reliably on all servers,
-            // especially shared hosting or local development environments without proper configuration.
+            // especially shared hosting or local Development environments without proper configuration.
             // Consider using PHPMailer or an email API service (SendGrid, Mailgun) for production.
             if (mail($recipient_email, $email_subject, $email_body, $headers)) {
                 // --- Success ---

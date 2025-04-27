@@ -215,5 +215,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    console.log("Wow Makers premium scripts V2 loaded.");
+    console.log("Dev Makers premium scripts V2 loaded.");
   });
