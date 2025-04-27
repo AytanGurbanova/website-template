@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Contact Wow Makers for expert corporate event planning and management services. Request a consultation or proposal today. Let's create something amazing together." />
+        <title>Contact Wow Makers | Event Management Consultation</title>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+      </head>
+      <body>
+        <header id="main-header">
+          <nav class="container">
+            <div class="logo"><a href="index.html">Wow Makers</a></div>
+            <ul class="desktop-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Insights</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+             <button id="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+          </nav>
+           <div id="mobile-menu">
+             <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Insights</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+          </div>
+        </header>
+
+         <section class="page-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x400/aaa/eee?text=Connect+With+Us');">
+            <div class="container animate-on-scroll">
+                <h1>Get In Touch</h1>
+                <p>Let's Start Planning Your Next Extraordinary Event</p>
+            </div>
+        </section>
+
+        <main class="container page-content">
+          <section id="contact-form-section" class="animate-on-scroll">
+              <div class="contact-container-enhanced">
+                <div class="contact-form-wrapper">
+                  <h2>Send Us Your Inquiry</h2>
+                  <p>Fill out the form below, and one of our event specialists will respond promptly to discuss your needs.</p>
+                  {/* The action attribute points to the PHP script */}
+                  <form id="contact-form" action="contact_process.php" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                          <label for="name">Full Name <span class="required">*</span></label>
+                          <input type="text" id="name" name="name" required aria-required="true"/>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email Address <span class="required">*</span></label>
+                          <input type="email" id="email" name="email" required aria-required="true"/>
+                        </div>
+                    </div>
+                     <div class="form-row">
+                        <div class="form-group">
+                          <label for="company">Company Name</label>
+                          <input type="text" id="company" name="company" />
+                        </div>
+                         <div class="form-group">
+                          <label for="phone">Phone Number</label>
+                          <input type="tel" id="phone" name="phone" />
+                        </div>
+                    </div>
+                     <div class="form-group">
+                      <label for="event_type">Type of Event (e.g., Conference, Gala)</label>
+                      <input type="text" id="event_type" name="event_type" />
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Tell Us About Your Event <span class="required">*</span></label>
+                      <textarea id="message" name="message" rows="6" required aria-required="true" placeholder="Please include details like potential dates, number of attendees, location ideas, and objectives..."></textarea>
+                    </div>
+                    {/* Honeypot field for basic spam protection */}
+                    <div class="form-group honeypot-field">
+                        <label for="website">Please leave this field blank</label>
+                        <input type="text" id="website" name="website">
+                    </div>
+                    <button type="submit" class="cta-button">Submit Inquiry</button>
+                    <p id="form-status" role="status" aria-live="polite"></p> {/* For showing success/error messages via JS or PHP redirect */}
+                  </form>
+                </div>
+                <div class="contact-info-wrapper">
+                  <h2>Contact Details</h2>
+                   <div class="contact-info-item">
+                       <h4><span class="icon-placeholder">📍</span> Address</h4>
+                       <address> {/* Use address tag */}
+                           123 Wow Street, Suite 456<br>
+                           Cityville, ST 78901
+                       </address>
+                       {/* Placeholder for map - Replace with embedded map later */}
+                       <div class="map-placeholder">
+                           <a href="https://maps.google.com/?q=123+Wow+Street+Cityville+ST+78901" target="_blank" rel="noopener noreferrer">[ View on Map ]</a>
+                       </div>
+                   </div>
+                    <div class="contact-info-item">
+                       <h4><span class="icon-placeholder">📞</span> Phone</h4>
+                       <p><a href="tel:+11234567890">(123) 456-7890</a></p>
+                   </div>
+                    <div class="contact-info-item">
+                       <h4><span class="icon-placeholder">✉️</span> Email</h4>
+                       <p><a href="mailto:hello@wowmakers.com">hello@wowmakers.com</a></p>
+                   </div>
+                   <div class="contact-info-item">
+                       <h4><span class="icon-placeholder">🕒</span> Business Hours</h4>
+                       <p>Monday - Friday<br>9:00 AM - 6:00 PM (Your Timezone)</p>
+                   </div>
+                   <div class="contact-info-item social-links-contact">
+                       <h4><span class="icon-placeholder">🔗</span> Follow Us</h4>
+                       <a href="#" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                       <a href="#" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+                       <a href="#" aria-label="Facebook" title="Facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+                   </div>
+                </div>
+              </div>
+          </section>
+        </main>
+
+        <footer>
+          <div class="container footer-content">
+             <div class="footer-about">
+                <h3>Wow Makers</h3>
+                <p>Crafting unforgettable corporate event experiences.</p>
+             </div>
+             <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                   <li><a href="about.html">About Us</a></li>
+                   <li><a href="services.html">Services</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+                   <li><a href="blog.html">Insights</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+                   <li><a href="#">Privacy Policy</a></li>
+                </ul>
+             </div>
+             <div class="footer-contact">
+                <h4>Contact Us</h4>
+                 <address>
+                    123 Wow Street, Suite 456<br>
+                    Cityville, ST 78901
+                </address>
+                <p>Phone: <a href="tel:+11234567890">(123) 456-7890</a></p>
+                <p>Email: <a href="mailto:hello@wowmakers.com">hello@wowmakers.com</a></p>
+             </div>
+             <div class="footer-social">
+                 <h4>Connect With Us</h4>
+                 <a href="#" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">LI</a>
+                 <a href="#" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener noreferrer">IN</a>
+                 <a href="#" aria-label="Facebook" title="Facebook" target="_blank" rel="noopener noreferrer">FB</a>
+             </div>
+          </div>
+          <div class="footer-bottom">
+             <p>&copy; <span id="current-year"></span> Wow Makers. All rights reserved.</p>
+          </div>
+        </footer>
+         <script src="js/script.js"></script>
+      </body>
+    </html>

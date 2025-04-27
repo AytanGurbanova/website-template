@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="View the portfolio of successful corporate events managed by Wow Makers. See examples of conferences, galas, product launches, and more." />
+        <title>Event Portfolio | Wow Makers Success Stories</title>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+      </head>
+      <body>
+        <header id="main-header">
+          <nav class="container">
+            <div class="logo"><a href="index.html">Wow Makers</a></div>
+            <ul class="desktop-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html" class="active">Portfolio</a></li>
+              <li><a href="blog.html">Insights</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+             <button id="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+          </nav>
+           <div id="mobile-menu">
+             <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html" class="active">Portfolio</a></li>
+              <li><a href="blog.html">Insights</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </header>
+
+         <section class="page-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x400/888/eee?text=Showcase+of+Events');">
+            <div class="container animate-on-scroll">
+                <h1>Our Work</h1>
+                <p>Showcasing a Selection of Successfully Delivered Events</p>
+            </div>
+        </section>
+
+        <main class="container page-content">
+          <section id="portfolio-intro" class="animate-on-scroll">
+             <p class="large-paragraph text-center" style="max-width: 900px; margin: 0 auto 50px auto;">
+               We take immense pride in the events we create and the tangible results we achieve for our clients. Explore some highlights from our diverse portfolio, demonstrating our capability across various event types and industries.
+             </p>
+             {/* Optional: Add filtering buttons here later if needed */}
+             {/* <div class="portfolio-filters text-center"> ... </div> */}
+          </section>
+
+          <section id="portfolio-items" class="animate-on-scroll">
+              <div class="portfolio-grid">
+                {/* Item 1 */}
+                <div class="portfolio-item" data-category="conference">
+                  <div class="portfolio-image">
+                     <img src="https://via.placeholder.com/400x300/555/fff?text=Tech+Summit+Stage" alt="Stage setup for Tech Innovate Summit 2023">
+                     <div class="portfolio-overlay">
+                        <a href="#" class="view-details-btn">View Case Study</a> {/* Link to case study page later */}
+                     </div>
+                  </div>
+                  <div class="portfolio-caption">
+                      <h3>Tech Innovate Summit 2023</h3>
+                      <p>Multi-day international technology conference focused on future trends for 500+ attendees.</p>
+                      <span class="portfolio-category">Conference</span>
+                  </div>
+                </div>
+                {/* Item 2 */}
+                <div class="portfolio-item" data-category="gala">
+                   <div class="portfolio-image">
+                     <img src="https://via.placeholder.com/400x300/666/fff?text=Elegant+Gala+Tables" alt="Table setting at the Global Finance Annual Gala">
+                      <div class="portfolio-overlay">
+                        <a href="#" class="view-details-btn">View Case Study</a>
+                     </div>
+                  </div>
+                   <div class="portfolio-caption">
+                      <h3>Global Finance Annual Gala</h3>
+                      <p>Elegant corporate gala dinner and prestigious awards ceremony with bespoke entertainment.</p>
+                      <span class="portfolio-category">Gala Dinner</span>
+                   </div>
+                </div>
+                {/* Item 3 */}
+                <div class="portfolio-item" data-category="launch">
+                   <div class="portfolio-image">
+                     <img src="https://via.placeholder.com/400x300/777/fff?text=FutureX+Reveal" alt="Product reveal moment at the FutureX Launch event">
+                      <div class="portfolio-overlay">
+                        <a href="#" class="view-details-btn">View Case Study</a>
+                     </div>
+                  </div>
+                   <div class="portfolio-caption">
+                      <h3>'FutureX' Product Launch</h3>
+                      <p>High-impact, media-focused product reveal and interactive brand activation experience.</p>
+                      <span class="portfolio-category">Product Launch</span>
+                   </div>
+                </div>
+                 {/* Item 4 */}
+                 <div class="portfolio-item" data-category="retreat">
+                   <div class="portfolio-image">
+                     <img src="https://via.placeholder.com/400x300/888/fff?text=Retreat+Activity" alt="Team building activity during the Innovate Solutions Executive Retreat">
+                      <div class="portfolio-overlay">
+                        <a href="#" class="view-details-btn">View Case Study</a>
+                     </div>
+                  </div>
+                   <div class="portfolio-caption">
+                      <h3>Innovate Solutions Executive Retreat</h3>
+                      <p>Seamless leadership retreat focused on strategic planning and immersive team building.</p>
+                      <span class="portfolio-category">Corporate Retreat</span>
+                   </div>
+                </div>
+                 {/* Item 5 */}
+                 <div class="portfolio-item" data-category="conference">
+                   <div class="portfolio-image">
+                     <img src="https://via.placeholder.com/400x300/999/fff?text=Symposium+Networking" alt="Attendees networking at the Healthcare Leaders Symposium">
+                      <div class="portfolio-overlay">
+                        <a href="#" class="view-details-btn">View Case Study</a>
+                     </div>
+                  </div>
+                   <div class="portfolio-caption">
+                      <h3>Healthcare Leaders Symposium</h3>
+                      <p>Complex medical symposium featuring international speakers, workshops, and networking sessions.</p>
+                      <span class="portfolio-category">Conference</span>
+                   </div>
+                </div>
+                 {/* Item 6 */}
+                 <div class="portfolio-item" data-category="reception">
+                   <div class="portfolio-image">
+                     <img src="https://via.placeholder.com/400x300/aaa/fff?text=Client+Event+Ambiance" alt="Ambiance shot of the Client Appreciation Night">
+                      <div class="portfolio-overlay">
+                        <a href="#" class="view-details-btn">View Case Study</a>
+                     </div>
+                  </div>
+                   <div class="portfolio-caption">
+                      <h3>Client Appreciation Night</h3>
+                      <p>Unique and engaging client appreciation event with bespoke entertainment and curated experiences.</p>
+                      <span class="portfolio-category">Corporate Reception</span>
+                   </div>
+                </div>
+                {/* Add more portfolio items */}
+              </div>
+          </section>
+
+           <section id="portfolio-cta" class="cta-section" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('https://via.placeholder.com/1920x500/444/ccc?text=Planning+the+Next+Success');">
+               <div class="container text-center animate-on-scroll">
+                   <h2>Inspired by Our Work?</h2>
+                   <p>Let's discuss how Wow Makers can create a similarly successful and impactful event for your organization.</p>
+                   <a href="contact.html" class="cta-button">Start Your Project</a>
+               </div>
+           </section>
+        </main>
+
+        <footer>
+          <div class="container footer-content">
+             <div class="footer-about">
+                <h3>Wow Makers</h3>
+                <p>Crafting unforgettable corporate event experiences.</p>
+             </div>
+             <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                   <li><a href="about.html">About Us</a></li>
+                   <li><a href="services.html">Services</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+                   <li><a href="blog.html">Insights</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+                   <li><a href="#">Privacy Policy</a></li>
+                </ul>
+             </div>
+             <div class="footer-contact">
+                <h4>Contact Us</h4>
+                 <address>
+                    123 Wow Street, Suite 456<br>
+                    Cityville, ST 78901
+                </address>
+                <p>Phone: <a href="tel:+11234567890">(123) 456-7890</a></p>
+                <p>Email: <a href="mailto:hello@wowmakers.com">hello@wowmakers.com</a></p>
+             </div>
+             <div class="footer-social">
+                 <h4>Connect With Us</h4>
+                 <a href="#" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">LI</a>
+                 <a href="#" aria-label="Instagram" title="Instagram" target="_blank" rel="noopener noreferrer">IN</a>
+                 <a href="#" aria-label="Facebook" title="Facebook" target="_blank" rel="noopener noreferrer">FB</a>
+             </div>
+          </div>
+          <div class="footer-bottom">
+             <p>&copy; <span id="current-year"></span> Wow Makers. All rights reserved.</p>
+          </div>
+        </footer>
+         <script src="js/script.js"></script>
+      </body>
+    </html>

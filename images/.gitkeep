@@ -1,0 +1,13 @@
+# Add high-quality images here:
+    # - Hero slider backgrounds (e.g., hero-conference.jpg, hero-gala.jpg)
+    # - Page header backgrounds (e.g., header-about.jpg, header-services.jpg)
+    # - Section backgrounds (e.g., cta-bg.jpg, testimonial-bg.jpg)
+    # - Inline images (e.g., team-photo.jpg, about-story.jpg)
+    # - Service icons (e.g., service-conference.svg) - SVGs preferred
+    # - Portfolio images (e.g., portfolio-tech-summit-1.jpg)
+    # - Team member photos (e.g., team-jane-doe.jpg)
+    # - Blog post images (e.g., blog-trends-2024.jpg)
+    # - Client logos (preferably SVG or transparent PNG)
+    #
+    # Remember to update image paths in HTML and CSS files.
+    # Use descriptive filenames. Optimize images for web use.
