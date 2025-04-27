@@ -42,6 +42,7 @@ website-template/
 
 ## 📸 Screenshots
 <div>
+   <img width="1800" alt="Screenshot 2025-04-27 at 13 47 57" src="https://github.com/user-attachments/assets/f41214bc-449c-4b65-a2b5-d4729d63724f" />
    <img width="1800" alt="Screenshot 2025-04-27 at 13 48 19" src="https://github.com/user-attachments/assets/27bd0db1-ffca-4375-966e-01c8e1180e3b" />
    <img width="1800" alt="Screenshot 2025-04-27 at 13 49 23" src="https://github.com/user-attachments/assets/38839a23-9b47-4380-b145-9a5dedff804a" />
    <img width="1800" alt="Screenshot 2025-04-27 at 13 49 10" src="https://github.com/user-attachments/assets/5931ba54-c07a-4fef-ae9a-f0e78ec0b95d" />
