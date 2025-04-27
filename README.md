@@ -31,14 +31,14 @@ website-template/
 - **Testimonial Slider**: Showcase feedback with auto-play and navigation dots.
 - **Scroll Animations**: Engaging animations as elements come into view.
 - **Contact Form**: Functional form with PHP backend for message handling.
-- **Dynamic Footer Year**: Automatically updates to the current year. ([Is a portfolio website necessary? Example of good documentation](https://forum.freecodecamp.org/t/is-a-portfolio-website-necessary-example-of-good-documentation-readme/472987?utm_source=chatgpt.com), [How to Design an Attractive GitHub Profile Readme… | Bootcamp](https://medium.com/design-bootcamp/how-to-design-an-attractive-github-profile-readme-3618d6c53783?utm_source=chatgpt.com), [Professional README Guide | The Full-Stack Blog - GitHub Pages](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide/?utm_source=chatgpt.com))
+- **Dynamic Footer Year**: Automatically updates to the current year.
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- PHP (for contact form processing) ([CREATE PORTFOLIO USING README.MD Github | by Nitish Patel](https://medium.com/%40patelnitish/create-theme-your-github-portfolio-57248b0ddb9c?utm_source=chatgpt.com), [Amazing README's to get you started with your own.](https://dev.to/toktoktwan/announcing-github-readme-templates-amazing-readme-s-to-get-you-started-with-your-own-1nek?utm_source=chatgpt.com))
+- PHP (for contact form processing) 
 
 ## 📸 Screenshots
 
@@ -49,7 +49,7 @@ website-template/
 ### Prerequisites
 
 - A modern web browser (e.g., Chrome, Firefox, Safari)
-- A local server environment (e.g., XAMPP, WAMP) to run PHP scripts ([What do you put in GitHub README for a website? - Reddit](https://www.reddit.com/r/webdev/comments/53sj3u/what_do_you_put_in_github_readme_for_a_website/?utm_source=chatgpt.com))
+- A local server environment (e.g., XAMPP, WAMP) to run PHP scripts 
 
 ### Installation
 
@@ -74,31 +74,8 @@ website-template/
    ```php
    $to = 'your-email@example.com'; // Replace with your email address
    ```
-
-
 3. Test the contact form by submitting a message through the website.
 
-
-1. **Fork the repository**
-2. **Create a new branch:**
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-
-
-3. **Commit your changes:**
-   ```bash
-   git commit -m 'Add YourFeature'
-   ```
- ([Professional README Guide | The Full-Stack Blog - GitHub Pages](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide/?utm_source=chatgpt.com))
-
-4. **Push to the branch:**
-   ```bash
-   git push origin feature/YourFeature
-   ```
- ([A README template mostly intended for web development projects ...](https://gist.github.com/79e216a54d022ddb2bdc82868a698376?utm_source=chatgpt.com))
-
-5. **Open a pull request** ([GitHub README Templates](https://www.readme-templates.com/?utm_source=chatgpt.com))
 
 ## 📄 License
 
